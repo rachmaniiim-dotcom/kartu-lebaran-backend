@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime
 
 app = FastAPI(title="Kartu Lebaran AI API")
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
 TEMPLATES = json.loads(Path("prompt_templates.json").read_text())
 jobs = {}

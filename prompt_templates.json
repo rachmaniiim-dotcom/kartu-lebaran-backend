@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "base_style": "cinematic 9:16 vertical video, 8 seconds, photorealistic, golden hour Indonesian atmosphere, face consistent with reference photo",
+  "locations": {
+    "kampung": {
+      "label": "Kampung Halaman",
+      "scene": "traditional Indonesian village, wooden rumah panggung, lush rice paddies in background, ketupat hanging from doorway, warm golden afternoon light"
+    },
+    "kota": {
+      "label": "Nuansa Kota",
+      "scene": "modern Indonesian city rooftop at sunset, city lights beginning to glow, contemporary Indonesian architecture, elegant urban setting"
+    },
+    "masjid": {
+      "label": "Suasana Masjid",
+      "scene": "beautiful Indonesian mosque courtyard, intricate geometric tile patterns, soft morning light filtering through carved stone lattice, serene and sacred atmosphere"
+    },
+    "pantai": {
+      "label": "Pantai Senja",
+      "scene": "stunning Indonesian beach at golden sunset, gentle waves, silhouetted palm trees, warm amber sky reflecting on wet sand"
+    }
+  },
+  "vibes": {
+    "haru": {
+      "label": "Haru & Syahdu",
+      "emotion": "deeply emotional, tears of joy, warm nostalgic feeling, gentle smile with glistening eyes, soft and tender expression",
+      "cinematics": "slow gentle movement, soft bokeh, warm color grade, slight vignette"
+    },
+    "ceria": {
+      "label": "Ceria & Bahagia",
+      "emotion": "joyful and radiant, bright genuine laughter, energetic warmth, celebratory spirit",
+      "cinematics": "bright vibrant colors, gentle zoom in, natural movement, cheerful energy"
+    },
+    "cinematic": {
+      "label": "Cinematic Elegan",
+      "emotion": "dignified and graceful, composed elegant expression, sophisticated warmth, subtle confident smile",
+      "cinematics": "dramatic lighting, film grain, cinematic color grade, slow deliberate movement"
+    },
+    "lucu": {
+      "label": "Lucu & Playful",
+      "emotion": "playful and fun, cheeky grin, light-hearted celebration, endearing expression",
+      "cinematics": "bright warm colors, cute movements, whimsical energy, joyful bounce"
+    }
+  },
+  "outfits": {
+    "kampung_haru": "cream batik baju koko with traditional Javanese motif, simple peci",
+    "kampung_ceria": "colorful batik kemeja, bright and festive Eid colors",
+    "kampung_cinematic": "elegant full batik suit, Javanese traditional attire",
+    "kampung_lucu": "cute batik outfit with fun accessories",
+    "kota_haru": "modern batik blazer over white shirt, contemporary Indonesian fashion",
+    "kota_ceria": "trendy batik modern outfit, young Indonesian professional style",
+    "kota_cinematic": "sharp modern batik suit, sophisticated urban Indonesian style",
+    "kota_lucu": "fun modern batik casual wear",
+    "masjid_haru": "pure white baju koko with gold embroidery, white peci",
+    "masjid_ceria": "clean white baju koko, fresh and bright",
+    "masjid_cinematic": "pristine white jubah with gold trim, elegant and sacred",
+    "masjid_lucu": "cute white baju koko with small accessories",
+    "pantai_haru": "soft linen batik shirt in earth tones, relaxed and warm",
+    "pantai_ceria": "bright cheerful batik shirt, beach Lebaran vibes",
+    "pantai_cinematic": "elegant resort batik shirt, sophisticated sunset look",
+    "pantai_lucu": "fun colorful batik beach outfit"
+  },
+  "music_moods": {
+    "gambus": {
+      "label": "Gambus Tradisional",
+      "atmosphere": "traditional Arabic-Indonesian gambus music atmosphere, spiritual and warm"
+    },
+    "pop_melayu": {
+      "label": "Pop Melayu",
+      "atmosphere": "upbeat Malay pop Eid song atmosphere, festive and joyful"
+    },
+    "orkestra": {
+      "label": "Orkestra Instrumental",
+      "atmosphere": "grand orchestral cinematic atmosphere, sweeping emotional strings"
+    }
+  },
+  "text_styles": {
+    "haru": "elegant gold Arabic calligraphy-inspired text, emotional and beautiful",
+    "ceria": "bright festive colorful text with celebratory energy",
+    "cinematic": "minimal serif gold text, cinematic title card style",
+    "lucu": "playful rounded colorful text with fun personality"
+  },
+  "templates": {
+    "kampung_haru": "A warm Indonesian kampung at golden hour, {scene[kampung]}, Indonesian person wearing {outfit[kampung_haru]}, face matching reference photo, {emotion[haru]}, slowly waves hand in gentle salam greeting, {cinematics[haru]}, text '{user_message}' and 'Selamat Idul Fitri' appearing in {text_style[haru]}, {music[gambus]}, {base_style}",
+    "kampung_ceria": "A vibrant Indonesian village celebration, {scene[kampung]}, Indonesian person wearing {outfit[kampung_ceria]}, face matching reference photo, {emotion[ceria]}, waves enthusiastically and claps with joy, {cinematics[ceria]}, text '{user_message}' in {text_style[ceria]}, {music[pop_melayu]}, {base_style}",
+    "kampung_cinematic": "A cinematic Indonesian village at magic hour, {scene[kampung]}, Indonesian person wearing {outfit[kampung_cinematic]}, face matching reference photo, {emotion[cinematic]}, dignified slow bow of salam, {cinematics[cinematic]}, text '{user_message}' in {text_style[cinematic]}, {music[orkestra]}, {base_style}",
+    "kampung_lucu": "A charming playful Indonesian kampung, {scene[kampung]}, Indonesian person wearing {outfit[kampung_lucu]}, face matching reference photo, {emotion[lucu]}, funny playful wave and dance, {cinematics[lucu]}, text '{user_message}' in {text_style[lucu]}, {music[pop_melayu]}, {base_style}",
+    "kota_haru": "An emotional urban Lebaran moment, {scene[kota]}, Indonesian person wearing {outfit[kota_haru]}, face matching reference photo, {emotion[haru]}, gentle reflective wave with emotional smile, {cinematics[haru]}, text '{user_message}' in {text_style[haru]}, {music[gambus]}, {base_style}",
+    "kota_ceria": "A joyful city Eid celebration, {scene[kota]}, Indonesian person wearing {outfit[kota_ceria]}, face matching reference photo, {emotion[ceria]}, energetic celebratory wave, {cinematics[ceria]}, text '{user_message}' in {text_style[ceria]}, {music[pop_melayu]}, {base_style}",
+    "kota_cinematic": "A cinematic urban Lebaran scene, {scene[kota]}, Indonesian person wearing {outfit[kota_cinematic]}, face matching reference photo, {emotion[cinematic]}, slow composed greeting gesture, {cinematics[cinematic]}, text '{user_message}' in {text_style[cinematic]}, {music[orkestra]}, {base_style}",
+    "kota_lucu": "A fun city Eid moment, {scene[kota]}, Indonesian person wearing {outfit[kota_lucu]}, face matching reference photo, {emotion[lucu]}, playful funny greeting, {cinematics[lucu]}, text '{user_message}' in {text_style[lucu]}, {music[pop_melayu]}, {base_style}",
+    "masjid_haru": "A deeply spiritual mosque moment, {scene[masjid]}, Indonesian person wearing {outfit[masjid_haru]}, face matching reference photo, {emotion[haru]}, sincere emotional salam with hands raised in dua, {cinematics[haru]}, text '{user_message}' in {text_style[haru]}, {music[gambus]}, {base_style}",
+    "masjid_ceria": "A bright joyful mosque courtyard, {scene[masjid]}, Indonesian person wearing {outfit[masjid_ceria]}, face matching reference photo, {emotion[ceria]}, bright joyful greeting wave, {cinematics[ceria]}, text '{user_message}' in {text_style[ceria]}, {music[pop_melayu]}, {base_style}",
+    "masjid_cinematic": "A cinematic sacred mosque scene, {scene[masjid]}, Indonesian person wearing {outfit[masjid_cinematic]}, face matching reference photo, {emotion[cinematic]}, slow reverential bow of salam, {cinematics[cinematic]}, text '{user_message}' in {text_style[cinematic]}, {music[orkestra]}, {base_style}",
+    "masjid_lucu": "A charming mosque Eid moment, {scene[masjid]}, Indonesian person wearing {outfit[masjid_lucu]}, face matching reference photo, {emotion[lucu]}, cute playful salam gesture, {cinematics[lucu]}, text '{user_message}' in {text_style[lucu]}, {music[gambus]}, {base_style}",
+    "pantai_haru": "A beautiful emotional beach sunset, {scene[pantai]}, Indonesian person wearing {outfit[pantai_haru]}, face matching reference photo, {emotion[haru]}, slow emotional wave toward horizon, {cinematics[haru]}, text '{user_message}' in {text_style[haru]}, {music[orkestra]}, {base_style}",
+    "pantai_ceria": "A joyful beach Lebaran celebration, {scene[pantai]}, Indonesian person wearing {outfit[pantai_ceria]}, face matching reference photo, {emotion[ceria]}, energetic happy beach wave, {cinematics[ceria]}, text '{user_message}' in {text_style[ceria]}, {music[pop_melayu]}, {base_style}",
+    "pantai_cinematic": "A cinematic golden beach sunset, {scene[pantai]}, Indonesian person wearing {outfit[pantai_cinematic]}, face matching reference photo, {emotion[cinematic]}, slow dignified greeting toward sunset, {cinematics[cinematic]}, text '{user_message}' in {text_style[cinematic]}, {music[orkestra]}, {base_style}",
+    "pantai_lucu": "A fun playful beach Eid scene, {scene[pantai]}, Indonesian person wearing {outfit[pantai_lucu]}, face matching reference photo, {emotion[lucu]}, funny playful beach wave, {cinematics[lucu]}, text '{user_message}' in {text_style[lucu]}, {music[pop_melayu]}, {base_style}"
+  }
+}
